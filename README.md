@@ -69,8 +69,8 @@ The project is organized as follows:
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/Fakhriamrh/twelve-labs-assignment.git
-cd twelve-labs-assignment
+git clone https://github.com/Fakhriamrh/twelvelabs-assignment.git
+cd twelvelabs-assignment
 ```
 
 ### Install the required dependencies:
