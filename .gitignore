@@ -1,0 +1,19 @@
+# Ignore config.py
+config.py
+
+# Ignore .venv directory
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment-specific files
+*.env
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+
+# Ignore Allure results
+allure-results/
