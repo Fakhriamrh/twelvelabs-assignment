@@ -23,8 +23,6 @@ def test_list_indexes_invalid_parameters():
     assert response.status_code == 400  # Expecting 400 for bad request
     allure.attach(response.text, name="List Indexes Invalid Parameters Response", attachment_type=allure.attachment_type.JSON)
 
-# New Test Cases
-
 @allure.feature('List Indexes')
 @allure.story('List indexes without providing pagination')
 def test_list_indexes_without_pagination():

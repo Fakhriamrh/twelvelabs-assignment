@@ -19,7 +19,6 @@ def test_create_minimal_index(index_data):
     assert create_response.status_code == 201
     allure.attach(create_response.text, name="Create Minimal Index Response", attachment_type=allure.attachment_type.JSON)
 
-
 @allure.feature('Create Index')
 @allure.story('Attempt to create an index with invalid data, should return 400')
 @pytest.mark.parametrize("index_data", [INVALID_INDEX_DATA])

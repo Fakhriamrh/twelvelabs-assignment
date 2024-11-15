@@ -17,10 +17,6 @@ def setup_and_teardown(api_client):
     
 
 def cleanup_indexes(api_client):
-    """
-    Deletes all indexes whose names start with 'CREATE' to clean up after tests.
-    This function now handles the case where no indexes are available.
-    """
     response = ApiClient.list_indexes()
     
     if response.status_code != 200:
